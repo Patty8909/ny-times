@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-color: #FAC200;
+  height: 20vh;
+}
+.title {
+  font-family:'Berkshire Swash', cursive;
+  padding: 20px;
+  margin-left: 32%;
+}
+.form {
+  font-family: 'Yantramanav', sans-serif;
+  margin-left: 30%;
+}
+.input {
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+.submit {
+  padding: 8px;
+  background-color: black;
+  border-style: none;
+  border-radius: 8px;
+  color: white;
+}
+.news {
+  font-family: 'PT Mono', monospace;
+  margin: 20px;
+
+}
+.container {
+  width: 80vh;
+  margin-left: 60vh;
+}

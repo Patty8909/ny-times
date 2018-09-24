@@ -31,10 +31,21 @@ function addNews(){
   
  const title = doc.headline.main;
   const snippet = doc.snippet;
+  
+  let cont = document.createElement('div');
+  let h4 = document.createElement('h4');
+  let main = document.createElement('p');
 
-  let li = document.createElement('li');
-  li.innerText = snippet;
+  cont.classList.add('style-box')
+  cont.appendChild(h4)
+  cont.appendChild(main)
 
-  responseContainer.appendChild(li);
+  h4.innerText = title;
+  main.innerText = snippet;
+
+  // let li = document.createElement('li');
+  // li.innerText = title;
+
+  responseContainer.appendChild(cont);
 }
 }

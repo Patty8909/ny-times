@@ -32,6 +32,19 @@
 
 }
 .container {
-  width: 80vh;
-  margin-left: 60vh;
+  margin-left: 1vh;
+}
+
+.style-box {
+  border: 2px solid rgb(216, 86, 46);
+  background-color: rgb(216, 86, 46);
+  border-radius: 10px; 
+  padding: 5px;
+  margin: 5px;
+  width: 30%;
+}
+#response-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

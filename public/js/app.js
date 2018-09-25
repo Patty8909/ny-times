@@ -37,6 +37,8 @@ function addNews(){
   let main = document.createElement('p');
 
   cont.classList.add('style-box')
+  h4.classList.add('style-title')
+  main.classList.add('style-main')
   cont.appendChild(h4)
   cont.appendChild(main)
 

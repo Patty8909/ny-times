@@ -5,3 +5,5 @@ Es una aplicación que solicita información de la API New York Times, en la que
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
+
+![Sin titulo](public/assets/images/news-desktop.png)
